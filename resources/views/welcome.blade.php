@@ -8,7 +8,8 @@
     {{ vite_assets() }}
 </head>
 <body>
-	<div id="root"></div>
-	<div id="counter"></div>
+		{{ Jwt_Token() }}
+		<div id="root"></div>
+		<div id="counter"></div>
 </body>
 </html>
